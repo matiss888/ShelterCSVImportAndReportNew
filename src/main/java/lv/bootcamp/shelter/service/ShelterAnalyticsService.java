@@ -13,7 +13,6 @@ public class ShelterAnalyticsService {
         List<Animal> allAnimals = importResult.allAnimals();
 
         Set<String> uniqueSpecies = new TreeSet<>();
-//        Map<String, List<Animal>> animalsBySpecies = new HashMap<>();
         List<String> animalsNeedingVetInput = new ArrayList<>();
 
         // TODO Step 2:
